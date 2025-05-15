@@ -1,25 +1,23 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 
 const HeroSection = () => {
-  return (
-    <section className="relative bg-gradient-to-r from-primary to-primary-dark text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
+  return (    <section className="relative bg-gradient-to-r from-emerald-800 to-emerald-900 text-white overflow-hidden">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
       
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-4">
-            Fostering Excellence in Education Since 1995
+            Welcome to Oxform International
           </h1>
           <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl">
-            Empowering young minds with knowledge and values to become responsible global citizens through holistic education.
+            Cultivating global leaders through academic excellence, innovation, and international mindedness.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button 
               size="lg" 
-              className="bg-secondary hover:bg-secondary-dark text-secondary-foreground font-medium"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-medium"
             >
               <Link to="/admissions" className="flex items-center">
                 Apply for Admission <ChevronRight size={16} className="ml-1" />
