@@ -3,30 +3,33 @@ import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 
 const HeroSection = () => {
-  return (    <section className="relative bg-gradient-to-r from-emerald-800 to-emerald-900 text-white overflow-hidden">
+  return (    
+    <section className="relative bg-gradient-to-r from-emerald-800 to-emerald-900 text-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
       
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-4">
-            Welcome to Oxform International
+            Welcome to Oxford International School
           </h1>
           <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl">
             Cultivating global leaders through academic excellence, innovation, and international mindedness.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button 
+              asChild
               size="lg" 
-              className="bg-blue-600 hover:bg-blue-700 text-white font-medium"
+              className="bg-white text-emerald-800 hover:bg-emerald-50"
             >
               <Link to="/admissions" className="flex items-center">
                 Apply for Admission <ChevronRight size={16} className="ml-1" />
               </Link>
             </Button>
             <Button 
+              asChild
               size="lg" 
               variant="outline" 
-              className="text-white border-white hover:bg-white/10"
+              className="border-white text-white hover:bg-white/10"
             >
               <Link to="/academics/curriculum">Explore Academics</Link>
             </Button>

@@ -87,7 +87,7 @@ const About = () => {
               <div className="absolute left-0 top-0 w-4 h-4 bg-primary rounded-full -translate-x-2"></div>
               <h3 className="text-xl font-semibold text-primary mb-2">1995 - Foundation</h3>
               <p className="text-neutral-dark mb-6">
-                Vidya Bharati Academy was established by a group of visionary educators and community leaders led by Dr. Ramesh Sharma with the aim of providing quality education in the growing city of Raipur. The school started with just 120 students and 10 teachers in a modest building.
+                Oxford International School was established by a group of visionary educators and community leaders with the aim of providing quality education with international standards. The school started with just 120 students and 10 teachers in a modest building.
               </p>
             </div>
             

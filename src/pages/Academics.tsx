@@ -20,7 +20,7 @@ const Academics = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-heading font-bold text-primary mb-6">Our Curriculum</h2>
             <p className="text-neutral-dark mb-8">
-              At Vidya Bharati Academy, we follow the Central Board of Secondary Education (CBSE) curriculum, enriched with additional programs that focus on holistic development. Our academic structure is designed to build a strong foundation in core subjects while nurturing creativity, critical thinking, and life skills.
+              At Oxford International School, we follow the Central Board of Secondary Education (CBSE) curriculum, enriched with additional programs that focus on holistic development. Our academic structure is designed to build a strong foundation in core subjects while nurturing creativity, critical thinking, and life skills.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
